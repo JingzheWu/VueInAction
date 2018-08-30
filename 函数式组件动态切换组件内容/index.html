@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app-1">
+            <smart-item :data="data"></smart-item>
+            <button @click="change('img')">图片组件</button>
+            <button @click="change('video')">视频组件</button>
+            <button @click="change('text')">文本组件</button>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
